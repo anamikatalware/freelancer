@@ -1,0 +1,81 @@
+a, .sky-form a, .skroll-header ul li.skroll-active a {
+	color:#f67b00;
+}
+.navbar-brand.logo {
+	background: url(../../images/logo-orange.png) no-repeat left 19px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .list-unstyled a:hover, .dropdown-menu > li > a:hover, .ms-layer.btn1:hover, .ms-layer.btn2, .blue, .content-feature-2:hover .feature-info > h3, .content-feature-2.active .feature-info > h3, h1 span, .tab-style1 .nav-tabs > li.active > a > i, .f-list:hover h3, .f-list.active h3, .cbp-l-filters-buttonCenter .cbp-filter-item.cbp-filter-item-active, .ms-layer.btn3:hover, .ms-layer.btn4, .button a.blue-btn.active, form .submit-btn:hover, ul.social-icons li a:hover i, ul.col-top-menu li a:hover, .nav > li > a:hover, .pricing-box.one:hover .pack-title, .pricing-box.one.active .pack-title, .pricing-box.one h4 span, .button a.grey-border-large:hover, .pricing-box.one:hover .button a.grey-border-large, .pricing-box.one.active .button a.grey-border-large, .nav.tabs-style4 > li.active > a, .nav.tabs-style4 > li.active > a:focus, .nav.tabs-style4 > li.active > a:hover, .pagenation a, .sky-form .checkbox input + i::after, .how-works:hover .small-circle-no {
+	color: #f67b00;
+}
+.scrollup {
+	background: #f67b00 url(../../images/scroll-top-arrow.png) no-repeat 15px 14px;
+}
+.bg-shape{
+	background:url(../../images/shape-orange.jpg) no-repeat center top;
+}
+.bg-topshape {
+    background:url(../../images/shape.png) no-repeat scroll center top;
+}
+.ms-layer.btn1, .ms-layer.btn2:hover, .slide-2 .hps-title1, .title1 .line, .cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active, .col-test .carousel-indicators .active, .collaps1 .panel-default > .panel-heading, .f-list:hover .shape, .f-list.active .shape, .box-icon.date, .ms-layer.btn3, .ms-layer.btn4:hover, .col-feature-box:hover .icon.box-big, .col-feature-box.active .icon.box-big, .col-test-3 .carousel-indicators .active, .col-amg-services:hover .icon.box-border, .col-amg-services.active .icon.box-border, .button a.blue-btn, .pricing-box.active, form .submit-btn, .col-video, .pricing-box.one:hover, .pricing-box.one.active, .pack-title, .title-line.color, .header.headr-style-2 .navbar-default, .callto-action, .nav-tabs.tabs-style2 > li.active > a, .nav-tabs.tabs-style2 > li.active > a:focus, .nav-tabs.tabs-style2 > li.active > a:hover, ul.col-top-menu.one li.sign-in a, .pricing-box.two.active, .button a.boxed-color, .button a.boxed-color.one, .navbar-nav > li.cart, .section-lg.section-lg-green, .col-topbar.cblue, .col-test-5.one .carousel-indicators .active, .col-test-5 .carousel-indicators .active, .sky-form .button, .smk_accordion .accordion_in.acc_active > .acc_head, .fea-box:hover, .fea-box.active-box, .bg-color, .how-works:hover .icon-circle, .small-circle-no, .team-thumb:hover .team-col .team-overlay, .team-thumb.active .team-col .team-overlay, .bg-shape-half, .content-feature-col .feature-icon-col::before, .sec-titiel::before, .counters::before, .content-feature-col:hover .icon-box-col, .content-feature-col.active .icon-box-col, .two-color-boxes-bgimg::before, .two-color-boxes-two{
+	background:#f67b00;
+}
+.col-parallax {
+	background:#b45b01;
+}
+.bg-overlay {
+	background:rgba(246, 123, 0, 0.9);
+}
+.compact .header.olivebg {
+	background: rgba(246, 123, 0, 1);
+}
+.content-feature-2:hover i.icon, .content-feature-2.active i.icon {
+	color:#fff;
+	border:solid 1px #f67b00;
+	background:#f67b00;
+}
+.button a.whte-border:hover {
+	border:solid 1px #f67b00;
+	background:#f67b00;
+}
+.how-works:hover i {
+	color:#f67b00 !important;
+}
+blockquote, .collaps1 .panel-default, .panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body, .cbp-l-filters-buttonCenter .cbp-filter-item.cbp-filter-item-active, .col-feature-box:hover .icon.box-big, .col-feature-box.active .icon.box-big, .pricing-box.active, .col-sm-3:hover .fbox-image, .pricing-box.two.active, .col-test-5.one .carousel-indicators li, .col-test-5 .carousel-indicators li, .col-test-5 .carousel-indicators .active, .col-test-5.one .carousel-indicators .active, .sky-form .radio input:checked + i, .sky-form .checkbox input:checked + i, .sky-form .toggle input:checked + i, .content-feature-col:hover .icon-box-col, .content-feature-col.active .icon-box-col {
+	border-color:#f67b00;
+}
+.col-amg-services:hover .icon.box-border, .col-amg-services.active .icon.box-border, .counters2 .circle {
+	border-color:#b45b01;
+}
+.section-full .box-one {
+	background:#d76c01;
+}
+.section-full .box-two {
+	background:#ee8318;
+}
+.section-full .box-three {
+	background:#fe9a37;
+}
+ @media (max-width:999px) {
+.nav > li > a {
+	padding: 10px 0px;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
+	color:#f67b00;
+}
+}
+ @media (max-width:768px) {
+.nav > li > a {
+	padding: 10px 0px;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
+	color:#f67b00;
+}
+}
+ @media (max-width:479px) {
+.nav > li > a {
+	padding: 10px 0px;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
+	color:#f67b00;
+}
+}

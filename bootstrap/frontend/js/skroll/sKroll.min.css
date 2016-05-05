@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+#skroll { display: none }
+
+.skroll-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 11px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 3px 11px -1px rgba(0,0,0,0.75);
+  box-shadow: 0 3px 11px -1px rgba(0,0,0,0.75)
+}
+
+.skroll-content section h2 { text-align: center }
+
+.skroll-header ul { list-style-type: none }
+
+.skroll-header ul li {
+  display: inline;
+  margin: 0 5px
+}
+
+.skroll-header ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out
+}
+
+.skroll-header ul li a:hover { color: #999 }
+
+.skroll-header ul li.skroll-active a { color: #E74C3C }
+
+.skroll-content {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.skroll-content section {
+  width: 100%;
+  height: 100%;
+  float: left;
+  color:#fff;
+}
+
+.skroll-content section:nth-child(odd) { background-color: #34BC9D }
+
+.skroll-content section:nth-child(even) { background-color: #DA4453 }

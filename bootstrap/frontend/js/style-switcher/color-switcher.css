@@ -1,0 +1,369 @@
+#style-selector {
+	position: fixed;
+	top: 90px;
+	left: 0;
+	z-index: 9999;
+	font-family: 'Roboto', sans-serif;
+	-moz-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.4);
+	box-shadow:0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.style-selector-wrapper {
+	position: relative;
+	z-index: 9999;
+	display: inline-block;
+	background: #fff;
+	width:280px;
+}
+.style-selector-wrapper > div {
+	margin: 0px 20px 10px 20px;
+}
+#style-selector a.close {
+	position: absolute;
+	top: 0px;
+	right: -50px;
+	width: 50px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background: #000;
+	border-radius: 0px;
+	font-size:18px;
+	color: #fff;
+	opacity:1;
+	outline:none;
+}
+#style-selector a.active {
+	box-shadow: 0 0 0 2px #000;
+}
+#style-selector .title {
+	height: 45px;
+	width: 100%;
+	float: left;
+	display: block;
+	background: #414141;
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 45px;
+	padding-left:20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom:20px;
+}
+#style-selector .title-sub {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 7px;
+	display: block;
+	color: #fff;
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+#style-selector .title-sub2 {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	display: block;
+	color: #454545;
+	text-align: left;
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+#style-selector ul {
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0 15px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+#style-selector ul.noborrder {
+	border-bottom: 0px solid #e0e0e0;
+}
+#style-selector .styles {
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+}
+#style-selector .styles li {
+	float: left;
+	margin:4px;
+	padding: 0;
+	transition: all 0.2s;
+}
+#style-selector .styles li a {
+	display: block;
+	cursor: pointer;
+	outline:none;
+}
+#style-selector .styles li:hover {
+	opacity:0.7;
+}
+ul.layout-style {
+	overflow:hidden;
+}
+.layout select {
+	margin: 0 3px;
+	width: 100%;
+	font-size: 12px;
+}
+.bg-image img {
+	width: auto;
+	height: 100%;
+}
+#style-selector .menu-fswitcher {
+	margin-left: 0px;
+	margin-top: 4px;
+}
+#style-selector .menu-fswitcher select {
+	color: #fff;
+	width:175px;
+	padding: 5px 4px;
+	border: 1px solid #575757;
+	background-color: #575757;
+}
+#style-selector .styles.demos li a {
+	text-align: center;
+	width: 50px;
+	height: 27px;
+	font-size: 11px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	line-height: 27px;
+	vertical-align: middle;
+	background-color: #454545;
+}
+#style-selector .styles.demos li a:hover {
+	background-color: #13afeb;
+}
+#style-selector .styles.demos li a:active {
+	background-color: #13afeb;
+}
+/* ----------- Colors ----------- */
+
+.pre-color-skin1 {
+	width:40px;
+	height:40px;
+	background-color: #009ff0;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin2 {
+	width:40px;
+	height:40px;
+	background-color: #ff2023;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin3 {
+	width:40px;
+	height:40px;
+	background-color: #f67b00;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin4 {
+	width:40px;
+	height:40px;
+	background-color: #45be84;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin5 {
+	width:40px;
+	height:40px;
+	background-color: #449d44;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin6 {
+	width:40px;
+	height:40px;
+	background-color: #f05d6b;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin7 {
+	width:40px;
+	height:40px;
+	background-color: #9b76ee;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin8 {
+	width:40px;
+	height:40px;
+	background-color: #1cbac8;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin9 {
+	width:40px;
+	height:40px;
+	background-color: #1ab4e1;
+	float: left;
+	cursor: pointer;
+}
+.pre-color-skin10 {
+	width:40px;
+	height:40px;
+	background-color: #91c400;
+	float: left;
+	cursor: pointer;
+}
+.bg-patterns1 {
+	background: url("../../images/elements/bg.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns2 {
+	background: url("../../images/elements/bg2.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns3 {
+	background: url("../../images/elements/bg3.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns4 {
+	background: url("../../images/elements/bg4.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns5 {
+	background: url("../../images/elements/bg5.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns6 {
+	background: url("../../images/elements/bg6.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns7 {
+	background: url("../../images/elements/bg7.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns8 {
+	background: url("../../images/elements/bg8.jpg") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns9 {
+	background: url("../../images/elements/bg9_thumb.jpg") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns10 {
+	background: url("../../images/elements/bg10_thumb.jpg") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns11 {
+	background: url("../../images/elements/bg11_thumb.jpg") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns12 {
+	background: url("../../images/elements/bg12_thumb.jpg") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns13 {
+	background: url("../../images/elements/bg9.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns14 {
+	background: url("../../images/elements/bg10.png") no-repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+.bg-patterns15 {
+	background: url("../../images/elements/bg11.png") repeat scroll center top #eee;
+	border: 1px solid #727272;
+	cursor: pointer;
+	float: left;
+	height: 35px;
+	width: 40px;
+}
+#style-selector .styles-noborder {
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+}
+#style-selector .styles-noborder li {
+	float: left;
+	margin: 0px 0px;
+	padding: 0;
+	color: #ddd;
+}
+#style-selector .styles-noborder li.left {
+	float: left;
+	width: 80px;
+	line-height: 14px;
+}
+#style-selector .styles-noborder li.left em {
+	font-style: normal;
+	line-height: 18px;
+	display: block;
+	margin-top: 7px;
+}
+#style-selector .styles-noborder li.left em a {
+	color: #b3b3b3;
+	font-size: 11px;
+}
+#style-selector .styles-noborder li.left em a:hover {
+	color: #fff;
+}
+#style-selector .styles-noborder li img {
+	float: left;
+	width: 100px;
+	height: 70px;
+}

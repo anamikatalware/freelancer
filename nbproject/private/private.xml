@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/admin/views/package/_form.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/admin/models/Package.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/controllers/CustomerController.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/controllers/JobsController.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/controllers/PortfolioController.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/views/customer/index.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/views/customer/settings/profile.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/views/membership/index.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/admin/views/package/index.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/controllers/InboxController.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/views/customer/settings/password.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/models/Customer.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/controllers/MembershipController.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/admin/controllers/CustomerController.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/admin/controllers/PackageController.php</file>
+            <file>file:/C:/xampp/htdocs/freelancer/protected/modules/user/views/customer/settings/account.php</file>
+        </group>
+    </open-files>
+</project-private>

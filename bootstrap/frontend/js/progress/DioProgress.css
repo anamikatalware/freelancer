@@ -1,0 +1,14 @@
+
+div.dioprogress_radius {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+div.dioprogress_size_l { height: 5px; }
+
+div.dioprogress_size_xl { height: 20px; }
+
+div.dioprogress_padding { padding: 5px; }
+
+div.dioprogress_bar { }

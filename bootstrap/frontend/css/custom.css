@@ -1,0 +1,236 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 6, 2016, 5:22:17 PM
+    Author     : Anamika
+*/
+
+.navbar-brand {
+    padding: 0 115px;    
+}
+
+.box-or::after {
+    background-color: #eee;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 14px;
+}
+.box-or {
+    color: #646464;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.box-or span {
+    background-color: #fff;
+    display: inline-block;
+    left: 46%;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 0 14px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+.social-login:after, .social-login:before {
+    clear: both;
+}
+
+.social-login {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+.social-login > div {
+    margin: 30px auto 0;
+    text-align: center;
+}
+.social-login .button {
+    display: inline-block;
+    float: none;
+}
+.text-red {
+    color: red;
+    font-weight: normal;
+}
+.alert {
+    margin-bottom: 0;
+}
+
+.navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+    left: auto;
+    position: absolute;
+    right: 0;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu, .navbar-nav > .messages-menu > .dropdown-menu, .navbar-nav > .tasks-menu > .dropdown-menu {
+    margin: 0;
+    padding: 0;
+    top: 100%;
+    width: 280px;
+}
+.dropdown-menu {
+    border-color: #eee;
+    box-shadow: none;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li, .navbar-nav > .messages-menu > .dropdown-menu > li, .navbar-nav > .tasks-menu > .dropdown-menu > li {
+    position: relative;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li.header, .navbar-nav > .messages-menu > .dropdown-menu > li.header, .navbar-nav > .tasks-menu > .dropdown-menu > li.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #f4f4f4;
+    border-radius: 4px 4px 0 0;
+    color: #444444;
+    font-size: 14px;
+    padding: 7px 10px;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li, .navbar-nav > .messages-menu > .dropdown-menu > li, .navbar-nav > .tasks-menu > .dropdown-menu > li {
+    position: relative;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu, .navbar-nav > .messages-menu > .dropdown-menu > li .menu, .navbar-nav > .tasks-menu > .dropdown-menu > li .menu {
+    list-style: outside none none;
+    margin: 0;
+    max-height: 200px;
+    overflow-x: hidden;
+    padding: 0;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li, .navbar-nav > .messages-menu > .dropdown-menu > li, .navbar-nav > .tasks-menu > .dropdown-menu > li {
+    position: relative;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li.footer > a, .navbar-nav > .messages-menu > .dropdown-menu > li.footer > a, .navbar-nav > .tasks-menu > .dropdown-menu > li.footer > a {
+    background-color: #fff;
+    border-bottom: 1px solid #eeeeee;
+    border-radius: 0 0 4px 4px;
+    color: #444 !important;
+    font-size: 12px;
+    padding: 7px 10px;
+    text-align: center;
+}
+.dropdown-menu > li > a {
+    color: #777;
+}
+.messages-menu .dropdown-menu li {
+    margin: 0;
+}
+.menu .fa.fa-user {
+    background: #ccc none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+}
+.messages-menu .dropdown-menu {
+    border-radius: 0;
+    margin-top: 8px;
+    width: 300px;
+}
+.header-messages {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+}
+.footer-messages {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    width: 100%;
+}
+.footer-messages:hover, .footer-messages:focus,
+.footer-messages a:hover, .footer-messages a:focus{
+    background: rgb(0,159,240) !important;
+    color: #fff !important;
+}
+.messages-menu .menu {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.messages-menu .menu li {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 {
+    color: #444444;
+    font-size: 15px;
+    margin: 0 0 0 45px;
+    padding: 0;
+    position: relative;
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > div > img {
+    height: 40px;
+    margin: auto 10px auto auto;
+    width: 40px;
+}
+.img-circle {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > p {
+    color: #888888;
+    font-size: 12px;
+    margin: 0 0 0 45px;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 > small {
+    color: #999999;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu p {
+    font-size: 12px;
+    padding-left: 50px;
+}
+.pull-left {
+    line-height: 60px;
+}
+.menu h4 {
+    font-size: 16px;
+    padding-left: 50px;
+}
+.menu small {
+    float: right;
+    line-height: 18px;
+}
+.cat-title {
+    background: rgb(0, 159, 240) none repeat scroll 0 0;
+    padding: 20px;
+}
+.header.headr-style-1 .navbar-default .navbar-nav .dropdown-menu > li > a:hover {
+    background: rgb(0, 159, 240) none repeat scroll 0 0;
+    color: #fff;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+.col-md-3.col-sm-3.m-bottom4 {
+    width: 20%;
+    cursor: pointer;
+}
+.pack-title {width: 100%;}
+.m-top5 sup {
+  font-size: 45%;
+}
+
+.my-upgrade-button {
+  background: rgb(28,186,200) none repeat scroll 0 0;
+  border-color: rgb(28,186,200) !important;
+  color: #fff !important;
+}
+.col-md-3.col-sm-3.m-bottom4:hover .my-upgrade-button  {
+  background: #fff none repeat scroll 0 0;
+  border-color: rgb(28,186,200) !important;
+  color: rgb(28,186,200) !important;  
+}
